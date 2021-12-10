@@ -1,0 +1,53 @@
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">{{ModalTitle}}</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" (click)="closeClick()"></button>
+            </div>
+            <div class="modal-body">
+                <app-add-project [project]="project" *ngIf="ActiveteAddEditProjectComp"></app-add-project>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid">
+
+    <table class="table table-hover mt-3">
+        <thead>
+            <tr>
+                <th scope="col">Builder</th>
+                <th scope="col">Project Name</th>
+                <th scope="col">Start Date</th>
+                <th scope="col">State</th>
+                <th scope="col">Council </th>
+                <th scope="col">Town</th>
+                <th scope="col">Status</th>
+                <th scope="col">Option</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let dataItem of ProjectList">
+
+                <td>{{dataItem.AccountName}}</td>
+                <td>{{dataItem.Name}}</td>
+                <td>{{dataItem.StartDate}}</td>
+                <td>{{dataItem.State}}</td>
+                <td>{{dataItem.Town}}</td>
+                <td>{{dataItem.Council}}</td>
+                <td>{{dataItem.Construction}}</td>
+                <td>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" (click)="editClick(dataItem)" data-bs-backdrop="static" data-keyboard="false">Edit</button>
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+</div>
+<button type="button" class="btn btn-primary d-flex m-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop" (click)="addClick()" data-bs-backdrop="static" data-keyboard="false">
+    Add Project
+  </button>

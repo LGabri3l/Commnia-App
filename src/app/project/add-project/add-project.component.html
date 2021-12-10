@@ -1,0 +1,50 @@
+<form [formGroup]="addProjectForm" (ngSubmit)="addProject()">
+
+    <div class="form-fgroup row">
+        <label class="col-sm-2 col-form-label">Details</label>
+        <div class="col-sm-10">
+            <input type="text" formControlName="Name" class="form-control mt-2" [(ngModel)]="Name" placeholder="Project Name">
+            <span class="text-danger" *ngIf="addProjectForm.controls['Name'].dirty && addProjectForm.hasError('required','Name')">*Project Name is required</span>
+
+            <input type="text" formControlName="Address" class="form-control mt-2" [(ngModel)]="Address" placeholder="Address">
+            <span class="text-danger" *ngIf="addProjectForm.controls['Address'].dirty && addProjectForm.hasError('required','Address')">*Address is required</span>
+
+            <input type="text" formControlName="Town" class="form-control mt-2" [(ngModel)]="Town" placeholder="Town">
+            <span class="text-danger" *ngIf="addProjectForm.controls['Town'].dirty && addProjectForm.hasError('required','Town')">*Town is required</span>
+
+            <input type="text" formControlName="Council" class="form-control mt-2" [(ngModel)]="Council" placeholder="Council">
+            <span class="text-danger" *ngIf="addProjectForm.controls['Council'].dirty && addProjectForm.hasError('required','Council')">*Council is required</span>
+
+            <input type="text" formControlName="State" class="form-control mt-2" [(ngModel)]="State" placeholder="State ">
+            <span class="text-danger" *ngIf="addProjectForm.controls['State'].dirty && addProjectForm.hasError('required','State')">*State is required</span>
+
+            <input type="text" formControlName="ApproximateValue" class="form-control mt-2" [(ngModel)]="ApproximateValue" placeholder="Approximate Value">
+            <span class="text-danger" *ngIf="addProjectForm.controls['ApproximateValue'].dirty && addProjectForm.hasError('required','ApproximateValue')">*Value is required</span>
+
+            <input type="text" formControlName="Construction" class="form-control mt-2" [(ngModel)]="Construction" placeholder="Status" ngModel required>
+            <span class="text-danger" *ngIf="addProjectForm.controls['Construction'].dirty && addProjectForm.hasError('required','Construction')">*Status  is required</span>
+
+            <input type="datetime" formControlName="StartDate" class="form-control mt-2" [(ngModel)]="StartDate" placeholder="Construction Start Date">
+            <span class="text-danger" *ngIf="addProjectForm.controls['StartDate'].dirty && addProjectForm.hasError('required','StartDate')">*Start date is required</span>
+
+            <input type="datetime" formControlName="ExpectedConstructionEndDate" class="form-control mt-2" [(ngModel)]="ExpectedConstructionEndDate" placeholder="Expected Construction End Date">
+            <span class="text-danger" *ngIf="addProjectForm.controls['ExpectedConstructionEndDate'].dirty && addProjectForm.hasError('required','ExpectedConstructionEndDate')">*Finish date is required</span>
+
+            <input type="text" formControlName="AccountName" class="form-control mt-2" [(ngModel)]="AccountName" placeholder="AccountName">
+            <span class="text-danger" *ngIf="addProjectForm.controls['AccountName'].dirty && addProjectForm.hasError('required','AccountName')">*Project Name is required</span>
+
+
+
+
+        </div>
+    </div>
+
+    <button type="submit" [disabled]="!addProjectForm.valid" (click)="addProject()" *ngIf="project.IdProject==0" class="btn btn-primary">
+    Add
+</button>
+
+    <button (click)="updateProject()" [disabled]="!addProjectForm.valid" *ngIf="project.IdProject!=0" class="btn btn-primary">
+    Update
+</button>
+
+</form>

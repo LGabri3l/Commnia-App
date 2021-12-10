@@ -1,0 +1,53 @@
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">{{ModalTitle}}</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" (click)="closeClick()"></button>
+            </div>
+            <div class="modal-body">
+                <app-add-builder [builder]="builder" *ngIf="ActiveteAddEditBuilderComp"></app-add-builder>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid">
+
+    <div class="d-flex flex-row mt-3">
+        <input [(ngModel)]="AccountNameFilter" class="form-control" (keyup)="filterFN()" placeholder="Filter">
+    </div>
+
+    <table class="table table-hover mt-3">
+        <thead>
+            <tr>
+                <th scope="col">Account Name</th>
+                <th scope="col">Contact Name</th>
+                <th scope="col">Address </th>
+                <th scope="col">ABN </th>
+                <th scope="col">Total Value</th>
+                <th scope="col">Option</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let dataItem of BuilderList">
+
+                <td>{{dataItem.AccountName}}</td>
+                <td>{{dataItem.ContactName}}</td>
+                <td>{{dataItem.Address}}</td>
+                <td>{{dataItem.ABN}}</td>
+                <td>{{dataItem.TotalValue}}</td>
+                <td>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" (click)="editClick(dataItem)" data-bs-backdrop="static" data-keyboard="false">Edit</button>
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+</div>
+<button type="button" class="btn btn-primary d-flex m-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop" (click)="addClick()" data-bs-backdrop="static" data-keyboard="false">
+    Add Builder
+</button>
