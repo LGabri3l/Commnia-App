@@ -1,0 +1,5 @@
+C:\Users\Luis Gabriel\Documents\Luis Gabriel Mena Arnedo\Job's Aplication\Commnia - Davidson\AppTrack\CommniaGabrielAPI\AppTrackAPI\AppTrack\AppTrackInfrastructure\bin\Debug\netstandard2.0\AppTrackInfrastructure.deps.json
+C:\Users\Luis Gabriel\Documents\Luis Gabriel Mena Arnedo\Job's Aplication\Commnia - Davidson\AppTrack\CommniaGabrielAPI\AppTrackAPI\AppTrack\AppTrackInfrastructure\bin\Debug\netstandard2.0\AppTrackInfrastructure.dll
+C:\Users\Luis Gabriel\Documents\Luis Gabriel Mena Arnedo\Job's Aplication\Commnia - Davidson\AppTrack\CommniaGabrielAPI\AppTrackAPI\AppTrack\AppTrackInfrastructure\obj\Debug\netstandard2.0\AppTrackInfrastructure.csprojAssemblyReference.cache
+C:\Users\Luis Gabriel\Documents\Luis Gabriel Mena Arnedo\Job's Aplication\Commnia - Davidson\AppTrack\CommniaGabrielAPI\AppTrackAPI\AppTrack\AppTrackInfrastructure\obj\Debug\netstandard2.0\AppTrackInfrastructure.AssemblyInfoInputs.cache
+C:\Users\Luis Gabriel\Documents\Luis Gabriel Mena Arnedo\Job's Aplication\Commnia - Davidson\AppTrack\CommniaGabrielAPI\AppTrackAPI\AppTrack\AppTrackInfrastructure\obj\Debug\netstandard2.0\AppTrackInfrastructure.AssemblyInfo.cs

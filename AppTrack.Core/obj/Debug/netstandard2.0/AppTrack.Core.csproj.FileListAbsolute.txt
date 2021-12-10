@@ -1,0 +1,9 @@
+C:\Users\Luis Gabriel\Documents\Luis Gabriel Mena Arnedo\Job's Aplication\Commnia - Davidson\AppTrack\CommniaGabrielAPI\AppTrackAPI\AppTrack\AppTrack.Core\bin\Debug\netstandard2.0\AppTrack.Core.deps.json
+C:\Users\Luis Gabriel\Documents\Luis Gabriel Mena Arnedo\Job's Aplication\Commnia - Davidson\AppTrack\CommniaGabrielAPI\AppTrackAPI\AppTrack\AppTrack.Core\bin\Debug\netstandard2.0\AppTrack.Core.dll
+C:\Users\Luis Gabriel\Documents\Luis Gabriel Mena Arnedo\Job's Aplication\Commnia - Davidson\AppTrack\CommniaGabrielAPI\AppTrackAPI\AppTrack\AppTrack.Core\obj\Debug\netstandard2.0\AppTrack.Core.AssemblyInfoInputs.cache
+C:\Users\Luis Gabriel\Documents\Luis Gabriel Mena Arnedo\Job's Aplication\Commnia - Davidson\AppTrack\CommniaGabrielAPI\AppTrackAPI\AppTrack\AppTrack.Core\obj\Debug\netstandard2.0\AppTrack.Core.AssemblyInfo.cs
+C:\Users\Luis Gabriel\Documents\Luis Gabriel Mena Arnedo\Job's Aplication\Commnia - Davidson\AppTrack\CommniaGabrielAPI\AppTrackAPI\AppTrack\AppTrack.Core\bin\Debug\netstandard2.0\AppTrack.Core.pdb
+C:\Users\Luis Gabriel\Documents\Luis Gabriel Mena Arnedo\Job's Aplication\Commnia - Davidson\AppTrack\CommniaGabrielAPI\AppTrackAPI\AppTrack\AppTrack.Core\obj\Debug\netstandard2.0\AppTrack.Core.dll
+C:\Users\Luis Gabriel\Documents\Luis Gabriel Mena Arnedo\Job's Aplication\Commnia - Davidson\AppTrack\CommniaGabrielAPI\AppTrackAPI\AppTrack\AppTrack.Core\obj\Debug\netstandard2.0\AppTrack.Core.pdb
+C:\Users\Luis Gabriel\Documents\Luis Gabriel Mena Arnedo\Job's Aplication\Commnia - Davidson\AppTrack\CommniaGabrielAPI\AppTrackAPI\AppTrack\AppTrack.Core\obj\Debug\netstandard2.0\AppTrack.Core.csprojAssemblyReference.cache
+C:\Users\Luis Gabriel\Documents\Luis Gabriel Mena Arnedo\Job's Aplication\Commnia - Davidson\AppTrack\CommniaGabrielAPI\AppTrackAPI\AppTrack\AppTrack.Core\obj\Debug\netstandard2.0\AppTrack.Core.csproj.CoreCompileInputs.cache
